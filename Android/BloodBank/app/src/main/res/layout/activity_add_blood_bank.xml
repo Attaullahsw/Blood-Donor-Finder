@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="50dp"
+        android:background="#EEE">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="32dp"
+            android:orientation="vertical"
+            android:padding="16dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="Name:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/edt_blood_bank_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rectangle_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="Emal:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/edt_blood_bank_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rectangle_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="Contact No:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/edt_blood_bank_contact_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rectangle_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="City:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_blood_bank_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rectangle_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="Address:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/edt_blood_bank_address"
+                android:layout_width="match_parent"
+                android:layout_height="153dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rectangle_edittext"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:gravity="left"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+
+
+
+            <Button
+                android:id="@+id/btn_blood_bank_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_button"
+                android:text="ADD Blood Bank"
+                android:layout_marginBottom="50dp"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.adminactivity.AdminLoginActivity">
+
+
+    <!--Logo-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/alex_brush"
+        android:text="Donate Blood To Save Life"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_below="@+id/imageView"
+        android:id="@+id/r_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <!--user name Edit text-->
+        <EditText
+            android:id="@+id/edt_adminuserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="16dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:hint="User name" />
+
+        <!--password edit text-->
+        <EditText
+            android:id="@+id/edt_adminpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt_adminuserName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="16dp"
+            android:hint="Password"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/pass"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <!--&lt;!&ndash;check box for remeber&ndash;&gt;-->
+        <!--<CheckBox-->
+            <!--android:id="@+id/chb_remember"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Remember Me"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:textColor="@color/colorAccent"-->
+            <!--android:layout_below="@id/edt_adminpassword"-->
+            <!--android:layout_marginRight="30dp"-->
+            <!--android:layout_marginLeft="30dp"-->
+            <!--/>-->
+        <!--text view for error message-->
+        <TextView
+            android:id="@+id/txt_errorMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_below="@id/edt_adminpassword"
+            android:padding="4dp"
+            android:textColor="@color/colorPrimary" />
+
+        <!--login button-->
+        <Button
+            android:id="@+id/btn_adminlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_errorMessage"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/rounded_shape"
+            android:textColor="@android:color/white"
+            android:text="Login Admin" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

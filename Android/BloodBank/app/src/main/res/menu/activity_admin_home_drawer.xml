@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_city"
+            android:icon="@drawable/add_icon"
+            android:title="Add City" />
+        <item
+            android:id="@+id/nav_all_city"
+            android:icon="@drawable/list_icon"
+            android:title="All City" />
+        <item
+            android:id="@+id/nav_add_blood_bank"
+            android:icon="@drawable/add_icon"
+            android:title="Add Blood Bank" />
+        <item
+            android:id="@+id/nav_all_blood_bank"
+            android:icon="@drawable/list_icon"
+            android:title="All Blood Bank" />
+        <item
+            android:id="@+id/nav_all_feedback"
+            android:icon="@drawable/list_icon"
+            android:title="All Feed Back" />
+
+        <item
+            android:id="@+id/nav_all_user"
+            android:icon="@drawable/profile"
+            android:title="All Users" />
+    </group>
+
+
+
+</menu>

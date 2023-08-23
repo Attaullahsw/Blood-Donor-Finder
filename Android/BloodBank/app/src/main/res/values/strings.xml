@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Registeration</string>
+    <string name="title_about">About Us</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_search_record">SearchRecordActivity</string>
+    <string name="title_activity_admin_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Blood Donor</string>
+    <string name="nav_header_subtitle">Donate Blood To Save Life</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register_user">User Registeration</string>
+
+
+    <string name="url">http://192.168.1.4/BloodDoner/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_search_blood_bank">Blood Banks</string>
+    <string name="title_activity_select_city_blood_bank">SelectCityBloodBank</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_add_blood_bank">Add Blood Bank</string>
+    <string name="title_activity_all_city_list">AllCityListActivity</string>
+    <string name="title_activity_all_blood_bank_admin">Blood Banks</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+    <string name="applink">App link</string>
+    <string name="title_activity_all_feed_back">AllFeedBackActivity</string>
+
+
+    <string name="about_us_paragraph">
+        This app is used to find blood doner for an emergency purpose.
+    </string>
+    <string name="title_activity_all_users">Users</string>
+    <string name="title_addbloodbank">Add Blood Bank</string>
+    <string name="title_activity_live_location">Map</string>
+
+</resources>

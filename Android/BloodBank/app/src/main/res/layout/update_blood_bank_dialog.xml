@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<ScrollView-->
+        <!--android:id="@+id/scrollView2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#EEE">-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="32dp"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="16dp"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="30dp"-->
+                <!--android:fontFamily="@font/alex_brush"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Update Blood Bank"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:textSize="30dp"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:text="Name:"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+                <!--android:textColor="@color/colorPrimaryDark" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/edt_blood_bank_name"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:background="@drawable/rectangle_edittext"-->
+                <!--android:ems="10"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:padding="10dp"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:textColor="@color/colorAccent" />-->
+
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:text="Emal:"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+                <!--android:textColor="@color/colorPrimaryDark" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/edt_blood_bank_email"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:background="@drawable/rectangle_edittext"-->
+                <!--android:ems="10"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:padding="10dp"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:textColor="@color/colorAccent" />-->
+
+
+
+
+
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:text="Contact No:"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+                <!--android:textColor="@color/colorPrimaryDark" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/edt_blood_bank_contact_no"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:background="@drawable/rectangle_edittext"-->
+                <!--android:ems="10"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:padding="10dp"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:textColor="@color/colorAccent" />-->
+
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:text="City:"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+                <!--android:textColor="@color/colorPrimaryDark" />-->
+
+            <!--<AutoCompleteTextView-->
+                <!--android:id="@+id/auto_blood_bank_city"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:background="@drawable/rectangle_edittext"-->
+                <!--android:ems="10"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:padding="10dp"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:textColor="@color/colorAccent" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:text="Address:"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+                <!--android:textColor="@color/colorPrimaryDark" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/edt_blood_bank_address"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="153dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:background="@drawable/rectangle_edittext"-->
+                <!--android:ems="10"-->
+                <!--android:inputType="textMultiLine"-->
+                <!--android:gravity="left"-->
+                <!--android:padding="10dp"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:textColor="@color/colorAccent" />-->
+
+
+
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_blood_bank_add"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:background="@drawable/rectangle_button"-->
+                <!--android:text="Update"-->
+                <!--android:layout_marginBottom="50dp"-->
+                <!--android:textColor="@android:color/white" />-->
+
+        <!--</LinearLayout>-->
+
+    <!--</ScrollView>-->
+
+
+
+</android.support.constraint.ConstraintLayout>
